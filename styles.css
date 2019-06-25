@@ -1,0 +1,152 @@
+/*Header*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*navigation*/
+    
+.main_header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: url(water2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(33, 87, 119);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: papyrus;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: .5em;
+    text-align: center;
+}
+
+
+.logo {
+    margin-top: 2em;
+    width: 40%;
+    align-self: center;
+}
+
+.nav {
+    margin-top: .5em;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: .5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: georgia;
+    font-weight: bold;
+    color: rgb(33, 87, 119);
+    font-weight: bold;
+    padding-right: 7px;
+    padding: 3px;
+    text-align: center;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.nav a:hover {
+    color: #151427;
+}
+
+.nav li {
+    flex-direction: row;
+    padding: 5px;
+    margin: 4px;
+    background: white;
+    border-radius: 5px;
+    width: 10em;
+}
+
+
+/*Body Styles*/
+
+
+.container_1, .container_2 {
+    margin-top: 5px;
+    background: white;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+ }
+
+.item_1,  .item_3 {
+    border-radius: 20px;
+    text-align: center;
+}
+
+.item_2, .item_4 {
+    color: rgb(33, 87, 119);
+    font-family: papyrus;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 80%;
+    margin: 5px;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+
+.hand {
+    width: 60%;
+    border-radius: 10px;
+}
+
+
+
+/*footer*/
+footer {
+    background: url(theugly.jpg);     
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25%;
+    color: rgb(51, 36, 13);
+    font-family: papyrus;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    }
+
+
+/*media queries*/
+@media(min-width: 768px) {
+    .container_1  {
+    flex-direction: row-reverse;
+    }
+    .container_2 {
+    flex-direction: row;
+    }
+
+    .item_1 {
+    
+    }
+    
+}
+    
+  
