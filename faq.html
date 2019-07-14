@@ -3,23 +3,70 @@
     <head>
       <meta charset="utf-8">
         <title>Renteria Counseling Services</title>
-      <link rel="stylesheet" href="styles.css">
+         <!-- Bootstrap CSS CDN -->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+         <!-- My Custom CSS -->
+         <link rel="stylesheet" href="styles.css">
     </head>
    
    <header class="main_header">
+     </header>
 
-    <ul class="nav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about_kayla.html">About Kayla</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="#">FAQ </a></li>
-      <li><a href="contact.html">Contact Me</a></li>
-      <li><a href="blog.html">Blog</a></li>
-    </ul>
+    <div class="pos-f-t">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about_kayla.html">About Kayla</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Counseling Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Trauma Treatment</a>
+              <a class="dropdown-item" href="#">Depression and Anxiety</a>
+              <a class="dropdown-item" href="#">Adolescents in Therapy</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Client Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="faq.html">FAQ</a>
+                <a class="dropdown-item" href="#">Intake Forms</a>
+                <a class="dropdown-item" href="#">Existing Clients</a>
+                <a class="dropdown-item" href="#">Insurance and Rates</a>
+                
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contact Me
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="contact.html">Schedule An Appointment</a>
+                  <a class="dropdown-item" href="#">Hours and Location</a>            
+                </div>
+              </li>
+        <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+            </div>
+       </ul>  
+       </div>
+      </div>
+    </nav>
 
-  </header>
-
-  <div class="banner">
+<div class="banner">
   <h1>Rough waters are inevitable. Here, you'll remain behind the wheel as we navigate the current together.</h1>
 </div>
 
@@ -28,25 +75,50 @@
 
       <div class="container_2">
         <div class="item_3">       
-            <img src="kayla2.jpg" alt="hand_reaching_out" class="hand">
+            <img src="kayla2.jpg" alt="kayla_sitting_on_couch" class="profile">
         </div>     
-        <div class="item_4">
-          <h2>FAQ</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
-              laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto 
-              beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut 
-              odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-              sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut 
-              aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
-              esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-        </div>
+        <div class="about_kayla">
+          <h2>About Kayla</h2>
+          <p class="intro">Welcome to Renteria Counseling Services. Choosing a therapist can often be difficult--ensuring 
+            a good fit is vital to your experience in therapy.  I would love to make this process a little 
+            easier for you by sharing a bit about me and my experiences. </p>
+            
+            <p>I am a Licensed Professional Clinical Counselor serving 
+            adolescents and adults in the Louisville community. I’ve lived in the Kentuckiana region my whole life, 
+            growing up in New Albany, Indiana. My passion for seeking a deeper understanding of the human mind began 
+            in my undergraduate studies, where I majored in Philosophy. During these studies, I developed a love for 
+            exploring the human condition and the complexity of our experiences.</p>
+            
+            <p>I continued my academic career in the Clinical Mental Health Counseling program at Indiana State University
+             in Terre Haute, Indiana. There, I studied under a highly qualified team of mental health experts. After 
+             graduating with my Masters of Science, I pursued licensure as a Licensed Mental Health Counselor in Indiana 
+             and as a Licensed Professional Clinical Counselor in Kentucky.</p>
+          </div>
+      </div>
+            
+      <div class="kayla_container">
+        <div>
+            <img src="kayla3.jpg" alt="kayla_facing_viewer" class="profile_2">
+          </div>
+
+          <div class="item_5">
+              <p>My professional experiences have provided me the opportunity to work in residential treatment, substance 
+              abuse treatment, foster care, community mental health, and most recently, private practice. I am currently 
+              specializing in the treatment of trauma for both adolescents and adults. I have been trained in evidence 
+              based practices that have been shown to be highly effective for anxiety, depression, and trauma. You can
+              learn more about those treatment models under the Counseling Services tab.</p>
+              
+              <p>My mission is to work collaboratively and compassionately with you to address the areas you want to 
+              change in your life. I approach the therapy process with your strengths in mind, building upon them 
+              to give you the skills needed to harness strength and growth. In my office, you’ll find a comfortable,
+              non-judgemental place to explore your goals and challenges. There is great power in sharing your story
+                with a trusted person. I believe in that power, and I feel honored to be a part of that with each one 
+                of my clients.</p>
+              
+              <p>When you’re ready, give me a call. I look forward to the opportunity to work with you!</p>
+          </div>
+      </div>
+       </div>
       </div>
   </div>
   </body>
@@ -66,7 +138,15 @@
           <p>Insurance accepted. Private pay options available.</p>
         </div>
     </footer>
-    <script src="jquery.js" type="text/javascript"></script>
-    <script src="javascript.js"></script>
+
+   <!--Scripts-->
+       <!--JQUERY-->
+       <script src="jquery.js" type="text/javascript"></script>
+       <!--My Javascript-->
+          <script src="javascript.js"></script>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
   </html>
 </DOCTYPE!>
