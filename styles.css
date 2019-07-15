@@ -175,6 +175,52 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.soon{
+    color: rgb(33, 87, 119);
+    font-family: 'papyrus';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+    min-width: 400px;
+    max-width: 85%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;  
+}
+
+.faq {
+   color: rgb(33, 87, 119);
+   font-family: 'times new roman';
+   font-weight: bold;
+   font-size: 20px;
+   padding: 2px;    
+   padding-bottom: 5px;
+   min-height: 30px;
+   min-width: 85%;
+   text-align: left;
+   margin-left: 35px;
+}
+
+.margin {
+    margin: 35px;
+}
+
+.card-body {
+    max-width: 85%;
+    text-align: center;
+    font-family: 'papyrus';
+    color: rgb(33, 87, 119);
+    margin: auto;
+    font-size: 20px;
 }
 
 /*Form*/
