@@ -15,7 +15,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
-    height: 45%;
+    height: 15%;
 }
 
 .pos-f-t {
@@ -54,48 +54,91 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 50px;
+    max-width: 95%;
     margin-bottom: 25px;
-    margin-top: 30px; 
+    margin-top: 35px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .about, .about_kayla, .item_5 {
     color: rgb(33, 87, 119);
     font-family: 'papyrus';
     font-weight: bold;
-    font-size: 20px;
     padding: 15px;
     border-radius: 20px;
+    margin: auto;
     margin: 10px;
     margin: 5px;
-    min-width: 400px;
-    max-width: 50%;
-    text-align: justify;
+    max-width: 95%;
+    text-align: center;
 }
 
-.about_image,  .item_3 {
+.new {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+ }
+
+.new2 {
+    display: flex;
+    align-items: center;
+    font-family: 'times new roman';
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(33, 87, 119);
+    color: white;
+    border-radius: 10px;
+    padding-right: 150px;
+    padding-bottom: 25px;
+    flex-direction: column;
+    width: 95%;
+}
+
+.location {
+    margin-top: 35px;
+    margin-left: 150px;
+    text-align: center;
+    width: 100%;
+}
+
+.about_image,  .item_3, {
     border-radius: 20px;
     margin: auto;
     padding-top: 45px;
     padding-left: 25px;
     align-self: center;
-    max-width: 50%;
     display: flex;
     justify-content: center;
+    max-width: 90%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.profile_2 {
-    max-width: 400;
-    align-self: center;
+.profile_2, .outstretched {
+    max-width: 95%;
     border-radius: 20px;
-    margin-right: 60px;
-    margin-bottom: 85px;
-    margin-top: 50px;
-    margin-left: 60px;
-    align-self: center;
+    margin: auto;
+    display: flex;
 }
 
+.profile {
+    border-radius: 10px;
+    margin: auto;
+    max-width: 95%;
+    display: flex;
+}
 
+.intro {
+    display: flex;
+    min-width: 50%;
+}
 
 .intro:first-line {
     font-weight: bold;
@@ -106,39 +149,45 @@ h2 {
     text-align: center;
     font-weight: bold;
     font-size: 35px;
+    margin-top: 35px;
+    color: rgb(90, 88, 88);
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .hand {
     width: 80%;
     border-radius: 10px;
-}
-
-.profile {
-    border-radius: 10px;
-    max-width: 500px;
+    margin: auto;
+    display: flex;
+    align-self: center;
 }
 
 .about_kayla {
-    width: 70%;
+    min-width: 50%;
     margin-left: 20px;
     margin-right: 15px;
 }
 
 .right {
-    color: rgb(33, 87, 119);
-    font-family: 'papyrus';
-    font-weight: bold;
-    font-size: 20px;
+    color: rgb(90, 88, 88);
+    font-family: 'times new roman';
+    font-size: 25px;
     padding: 15px;
     border-radius: 20px;
     margin: auto;
-    min-width: 400px;
     max-width: 85%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 25px;
     margin-bottom: 35px;
 }
 
@@ -186,6 +235,43 @@ h2 {
     font-size: 20px;
 }
 
+.insurance {
+    text-align: center;
+}
+
+.appointment {
+    margin-top: 25px;
+    min-width: 165px;
+    min-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-family: 'times new roman';
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.appointment a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.end {
+    margin-bottom: 55px;
+}
+
+.blue {
+    font-weight: bold;
+    font-family: 'papyrus';
+    color: rgb(33, 87, 119);
+} 
+
 /*Form*/
 
 .form_title {
@@ -195,16 +281,17 @@ h2 {
 form {
     margin: auto;
     margin-top: 35px;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     color: rgb(33, 87, 119);
     align-content: center;
     align-self: center;
-    max-width: 75%;
+    max-width: 95%;
+    min-width: 60%;
     background: rgb(193, 198, 250);
     border-radius: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 55px;
     font-family: 'times new roman';
     font-weight: bold;
     font-size: 20px;
@@ -216,33 +303,16 @@ form {
     font-family: 'times new roman';
     font-weight: bold;
     font-size: 20px;
-}
-
-.contact_info input {
-    padding-top: 5px;
-}
-
-label input[type="radio"] {
-    cursor: pointer;
+    min-width: 90%;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
 }
 
 .preferred_method, .time {
     flex-direction: column;
     padding: 10px;
-    margin-bottom: 25px;
     align-self: center;
-}
-
-.preferred_method label {
-    cursor: pointer;
-}
-
-.time label {
-    cursor: pointer;
-}
-
-.contact {
-    margin-bottom: 35px;
 }
 
 input {
@@ -250,11 +320,18 @@ input {
 }
 
 .text {
-    min-width: 200px;
+    min-width: 70%;
+}
+
+.select {
+    max-width: 75%;
+    min-width: 60%;
+    align-self: center;
 }
 
 button {
     width: 100px;
+    display: flex;
     align-self: center;
     background: rgb(33, 87, 119);
     color: white;
@@ -270,29 +347,42 @@ footer {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 200px;
-    max-height: 325px;
+    max-height: 225px;
+    min-height: 75px;
     color: white;
     font-family: 'Times New Roman';
-    font-size: 25px;
-    line-height: .5;
+    font-size: 15px;
+    line-height: .25;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
+    margin: auto;
+    padding-top: 15px;
     }
 
 .address {
     margin-top: 25px;
 }
 
+.contact {
+    margin-top: 25px;
+}
+
+
 /*media queries*/
-@media(min-width: 1100px) {
+@media(min-width: 1200px) {
+
+    .main_header {
+        height: 40%;
+    }
+    
     .about_container  {
         flex-direction: row-reverse;
     }
+
     .container_2 {
         flex-direction: row;
     }
@@ -302,8 +392,13 @@ footer {
         flex-direction: row-reverse;
     }
 
+    .about_kayla{
+        max-width: 55%;
+    }
+
     .address, .contact {
         text-align: left;
+        font-size: 25px;
     }
 
     .about_container {
@@ -312,10 +407,20 @@ footer {
 
     .hand {
         max-width: 60%;
+        margin-bottom: 35px;
     }
 
     .contact {
         margin-top: 25px;
+    }
+
+    .new2 {
+        flex-direction: row;
+        font-size: 25px;
+    }
+
+    .location {
+        text-align: left;
     }
 
 }

@@ -1,29 +1,38 @@
+/*Fade in the banner at the top of each page*/
 
-//make radio buttons on contact page un-clickable -- I got this code off the internet -- I didn't write it mysef//
-$('input[type=radio]').click(function(){
-    if (this.previous) {
-        this.checked = false;
-    }
-    this.previous = this.checked;
-});
+$(".banner").hide().fadeIn(3000);
+
+/* Creating a response to clicking 'submit' on contact page*/
+
+   $( document ).ready(function() {
+
+    $('.submit').click(function() {
+        var firstName = $('.firstName').val();
+        $('.firstName').text(firstName);
+    });   
+
+     $('.submit').click(function() {
+        var lastName = $('.lastName').val();
+        $('.lastName').text(lastName);
+    }); 
+
+    $('.submit').click(function() {
+        var method = $('.method').val();
+        $('.method').text(method);
+    }); 
 
 
-//Creating a response to clicking 'submit' on contact page
-   //create variables
-//    var $firstName = $('.firstName').val("");
-//    var $lastName = $('.lastName').val("");
-//    var $method = $('');
-//    var $time = $('');
-//  /*  const $reveal = $( 'Thank you, '+ $firstName + 'Kayla will contact you via ' + method + time + '.');*/
+    $('.submit').click(function() {
+        var time = $('.time').val();
+        $('.time').text(time);
+    }); 
 
-//    //print text and variables to page
-//   $('.reveal').print();
+   
+    
+    $('.submit').click(function(){
+        document.write('Thank you, ' + firstName.value + ' ' + lastName.value + ', Kayla will contact you soon via '
+        + method.value + ' in the ' + time.value + '.');
+    });
 
-//    //hide confirmation text until button is clicked
-//     $('.reveal').hide();
+ });
 
-//    //hide button when button is pressed
-//     $('.button').click(function() {
-//          $('.button').hide();
-//          $('.reveal').show();
-//        })

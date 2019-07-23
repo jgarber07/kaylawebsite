@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
         <title>Renteria Counseling Services</title>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"> 
         <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -71,67 +71,54 @@
   <h1>Rough waters are inevitable. Here, you'll remain behind the wheel as we navigate the current together.</h1>
 </div>
 
-<div id="main">
+<main id="main">
   <body>
 
-
-
+<!--Form-->
+  
     <div class="form">
     <form>
+          <!--form title-->
           <h1 class="form_title">Contact Me</h1>
-      <div class="contact_info">
+
+        <!--Text Input (contact information)-->
+        <div class="contact_info">
         First Name:</br>
-        <input type="text" class="text firstName" value=""></br>
+        <input type="text" class="text firstName" id="firstName"  required></br>
         </br>
         Last Name:</br>
-        <input type="text" class="text lastName" value=""></br>
+        <input type="text" class="text lastName" id="lastName"  required></br>
         </br>
         Your Email Address:</br>
-        <input type="email" class="text email" value=""></br>
+        <input type="email" class="text email"></br>
         </br>
       Your Phone Number:</br>
-        <input type="tel" class="text phone" value=""></br>
+        <input type="tel" class="text phone" required></br>
       </div>
 
-      <div class="preferred_method">
-        <p>What is your preferred method of contact?</p>
-            <label><input type="radio" id="email" name="email" value="email">
-            Email</label></br>
-          
-            <label><input type="radio" id="phone" name="phone" value="phone">
-            Phone Call</label></br>
-            
-            <label><input type="radio" id="text" name="text" value="text">
-             Text Message</label></br>       
-    
-            <label><input type="radio" id="smoke" name="smoke" value="smoke">
-            Smoke Signal</label> </br>
-     
-     </div>
+      <!--method dropdown-->
+      <h3>What's the best method for contacting you?</h2>
+      <select class="select" name="method" id="method" required>
+        <option value="email">Email</option>
+        <option value="phone">Phone Call</option>
+        <option value="text message">Text Message</option>
+        <option value="smoke signal">Smoke Signal</option>
+      </select>
 
-      <div class="time">
-        <p>What is the best time of day to reach you?</p>
-          
-              <label><input type="radio" id="Before" name="before" value="before">
-              Between 8:00 am and Noon</label></br>
-          
-              <label><input type="radio" id="five" name="five" value="five">
-              Between Noon and 5 pm</label></br>
-          
-              <label><input type="radio" id="after" name="after" value="after">
-              After 5 pm</label></br>
-                  
-              <label><input type="radio" id="any" name="any" value="any">
-              Any time is fine</label></br>
-              
-      </div>
+      <h3>What's the time of day to contact you?</h2>
+        <select class="select" name="time" id="time" required>
+          <option value="morning">Morning</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+        </select>
 
-      <button>Submit</button>
+      <button class="submit">Submit</button>
 
     </form>
     </div>
   </body>
 
+    <!--Footer-->
     <footer>
       <div class="address">
           <p>Kayla Renteria, LPCC</p>
@@ -144,8 +131,8 @@
           <p>p: 502.205.2319</p>
           <p>f: 502.785.4003</p>
           <p>e: kayla@renteriacounseling.com</p>
-          <p>Insurance accepted. Private pay options available.</p>
-        </div>
+          <p>Insurance accepted.</p> 
+          <p>Private pay options available.</p>
     </footer>
 
   <!--Scripts-->
@@ -157,5 +144,5 @@
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
-  </html>
+  </main>
 </DOCTYPE!>
