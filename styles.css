@@ -121,20 +121,6 @@ h1 {
     align-items: center;
 }
 
-.profile_2, .outstretched {
-    max-width: 95%;
-    border-radius: 20px;
-    margin: auto;
-    display: flex;
-}
-
-.profile {
-    border-radius: 10px;
-    margin: auto;
-    max-width: 95%;
-    display: flex;
-}
-
 .intro {
     display: flex;
     min-width: 50%;
@@ -159,14 +145,6 @@ h3 {
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.hand {
-    width: 80%;
-    border-radius: 10px;
-    margin: auto;
-    display: flex;
-    align-self: center;
 }
 
 .about_kayla {
@@ -239,27 +217,12 @@ h3 {
     text-align: center;
 }
 
-.appointment {
-    margin-top: 25px;
-    min-width: 165px;
-    min-height: 100px;
-    color: white;
-    font-weight: bold;
-    font-family: 'times new roman';
-    border-radius: 10px;
-    display: flex;
-    text-align: center;
-    margin: auto;
-    align-items: center;
+#time {
+    margin-bottom: 35px;
 }
 
-.appointment a {
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    display: flex;
-    align-self: center;
-    justify-content: center;
+#method {
+    margin-bottom: 35px;
 }
 
 .end {
@@ -271,6 +234,31 @@ h3 {
     font-family: 'papyrus';
     color: rgb(33, 87, 119);
 } 
+
+/*Images*/
+
+.hand {
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-self: center;
+}
+
+.profile_2, .outstretched {
+    max-width: 95%;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+}
+
+.profile {
+    border-radius: 10px;
+    margin: auto;
+    max-width: 95%;
+    display: flex;
+}
+
 
 /*Form*/
 
@@ -296,6 +284,7 @@ form {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 35px;
 }
 
 .contact_info {
@@ -329,6 +318,8 @@ input {
     align-self: center;
 }
 
+/*Buttons*/
+
 button {
     width: 100px;
     display: flex;
@@ -339,7 +330,32 @@ button {
     height: 45px;
     text-align: center;
     cursor: pointer;
+    padding: 5px;
 }   
+
+.appointment {
+    min-width: 165px;
+    min-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-family: 'times new roman';
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.appointment a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 /*footer*/
 footer {

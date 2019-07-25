@@ -1,9 +1,10 @@
 /*Fade in the banner at the top of each page*/
+      /* I had originally stolen this tiny piece of javascript from the internet, 
+      but then deleted it and started over because it had stopped working for some
+      reason, so I'm not sure if this little portion counts as "original" */
+      $(".banner").hide().fadeIn(3000);
 
-$(".banner").hide().fadeIn(3000);
-
-/* Creating a response to clicking 'submit' on contact page*/
-
+/*Setting input to variables*/
    $( document ).ready(function() {
 
     $('.submit').click(function() {
@@ -27,12 +28,11 @@ $(".banner").hide().fadeIn(3000);
         $('.time').text(time);
     }); 
 
-   
     
+   /* Creating a response to clicking 'submit' on contact page*/
     $('.submit').click(function(){
         document.write('Thank you, ' + firstName.value + ' ' + lastName.value + ', Kayla will contact you soon via '
         + method.value + ' in the ' + time.value + '.');
     });
 
  });
-
