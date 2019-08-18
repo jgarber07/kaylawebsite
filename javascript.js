@@ -28,7 +28,7 @@
         $('.time').text(time);
     }); 
 
-    
+
    /* Creating a response to clicking 'submit' on contact page*/
     $('.submit').click(function(){
         document.write('Thank you, ' + firstName.value + ' ' + lastName.value + ', Kayla will contact you soon via '
@@ -36,3 +36,4 @@
     });
 
  });
+
